@@ -7,5 +7,5 @@ resource "aws_instance" "scalr" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-0ebb1058ad727cfdb"
   vpc_security_group_ids = ["sg-0880cfdc546b123ba"]
-  key_name               = "peter"
+  key_name               = "ryan"
 }
