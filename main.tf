@@ -8,7 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "us-east-1"
+  region = "us-west-1"
 }
 
 resource "aws_instance" "scalr" {
@@ -16,5 +16,5 @@ resource "aws_instance" "scalr" {
   instance_type          = "t2.micro"
   subnet_id              = "subnet-0606418852dd6989a"
   vpc_security_group_ids = ["vpc-03c2e422e3ac04126"]
-  key_name               = "ryan"
+  key_name               = "keyDemo"
 }
