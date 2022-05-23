@@ -13,8 +13,8 @@ provider "aws" {
 
 resource "aws_instance" "scalr" {
   ami                    = "ami-2757f631"
-  instance_type          = "t2.small"
-  subnet_id              = "subnet-0ebb1058ad727cfdb"
-  vpc_security_group_ids = ["sg-0880cfdc546b123ba"]
+  instance_type          = "t2.micro"
+  subnet_id              = "subnet-0606418852dd6989a"
+  vpc_security_group_ids = ["vpc-03c2e422e3ac04126"]
   key_name               = "ryan"
 }
